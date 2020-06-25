@@ -17,7 +17,7 @@ function AddTransaction(){
         setText('');
     }
 
-    const incomeHandler=(e)=>{
+    /*const incomeHandler=(e)=>{
         e.preventDefault();
         if(amount<0){
             alert("You can't enter negative value")
@@ -40,7 +40,7 @@ function AddTransaction(){
         amount*=-1;
         setAmount(amount);
 
-    }
+    }*/
     
     return(
         <>
